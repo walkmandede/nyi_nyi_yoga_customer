@@ -1,0 +1,43 @@
+name: kmdmobilehybrid
+description: "KMD mobile hybrid application for Yoga System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences:
+  intl:
+  cached_network_image:
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 900
